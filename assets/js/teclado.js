@@ -86,11 +86,404 @@ let campoLetras = document.getElementById("campoLetras");
 
 
 
-
 const btnLineaF = () => {
-  
+   campoLetras.innerHTML =  "|";
 };
+
+const btnNum1F = () => {
+    campoLetras.innerHTML =  "1";
+};
+
+const btnNum2F = () => {
+    campoLetras.innerHTML =  "2";
+};
+
+const btnNum3F = () => {
+    campoLetras.innerHTML =  "3";
+};
+
+const btnNum4F = () => {
+    campoLetras.innerHTML =  "4";
+};
+
+const btnNum5F = () => {
+    campoLetras.innerHTML =  "5";
+};
+
+const btnNum6F = () => {
+    campoLetras.innerHTML =  "6";
+};
+
+const btnNum7F = () => {
+    campoLetras.innerHTML =  "7";
+};
+
+const btnNum8F = () => {
+    campoLetras.innerHTML =  "8";
+};
+
+const btnNum9F = () => {
+    campoLetras.innerHTML =  "9";
+};
+
+const btnNum0F = () => {
+    campoLetras.innerHTML =  "0";
+};
+
+const btnAcrosF = () => {
+    campoLetras.innerHTML =  "'";
+};
+
+const btnSignoAbiertoF = () => {
+    campoLetras.innerHTML =  "¿";
+};
+
+const btnQF = () => {
+    campoLetras.innerHTML =  "q";
+};
+
+const btnWF = () => {
+    campoLetras.innerHTML =  "w";
+};
+
+const btnEF = () => {
+    campoLetras.innerHTML =  "e";
+};
+
+const btnRF = () => {
+    campoLetras.innerHTML =  "r";
+};
+
+const btnTF = () => {
+    campoLetras.innerHTML =  "t";
+};
+
+const btnYF = () => {
+    campoLetras.innerHTML =  "y";
+};
+
+const btnUF = () => {
+    campoLetras.innerHTML =  "u";
+};
+
+const btnIF = () => {
+    campoLetras.innerHTML =  "i";
+};
+
+const btnOF = () => {
+    campoLetras.innerHTML =  "o";
+};
+
+const btnPF = () => {
+    campoLetras.innerHTML =  "p";
+};
+
+const btnTildeF = () => {
+    campoLetras.innerHTML =  "´";
+};
+
+const btnMasF = () => {
+    campoLetras.innerHTML =  "+";
+};
+
+const btnAF = () => {
+    campoLetras.innerHTML =  "a";
+};
+
+const btnSF = () => {
+    campoLetras.innerHTML =  "s";
+};
+
+const btnDF = () => {
+    campoLetras.innerHTML =  "d";
+};
+
+const btnFF = () => {
+    campoLetras.innerHTML =  "f";
+};
+
+const btnGF = () => {
+    campoLetras.innerHTML =  "g";
+};
+
+const btnHF = () => {
+    campoLetras.innerHTML =  "h";
+};
+
+const btnJF = () => {
+    campoLetras.innerHTML =  "j";
+};
+
+const btnKF = () => {
+    campoLetras.innerHTML =  "k";
+};
+
+const btnLF = () => {
+    campoLetras.innerHTML =  "l";
+};
+
+const btnLlaveAbreF = () => {
+    campoLetras.innerHTML =  "{";
+};
+
+const btnLlaveCierraF = () => {
+    campoLetras.innerHTML =  "}";
+};
+
+const btnMenorQueF = () => {
+    campoLetras.innerHTML =  "<";
+};
+
+const btnZF = () => {
+    campoLetras.innerHTML =  "z";
+};
+
+const btnXF = () => {
+    campoLetras.innerHTML =  "x";
+};
+
+const btnCF = () => {
+    campoLetras.innerHTML =  "c";
+};
+
+const btnVF = () => {
+    campoLetras.innerHTML =  "v";
+};
+
+const btnBF = () => {
+    campoLetras.innerHTML =  "b";
+};
+
+const btnNF = () => {
+    campoLetras.innerHTML =  "n";
+};
+
+const btnMF = () => {
+    campoLetras.innerHTML =  "m";
+};
+
+const btnComaF = () => {
+    campoLetras.innerHTML =  ",";
+};
+
+const btnPuntoF = () => {
+    campoLetras.innerHTML =  ".";
+};
+
+const btnGuionF = () => {
+    campoLetras.innerHTML =  "-";
+};
+
+const btnEspacioF = () => {
+    campoLetras.innerHTML =  " ";
+};
+
+
+
+
+
+
+
+
+
+
 
 btnLinea.onclick = function () {
     btnLineaF();
 };
+
+btnNum1.onclick = function () {
+    btnNum1F();
+};
+
+btnNum2.onclick = function () {
+    btnNum2F();
+};
+
+btnNum3.onclick = function () {
+    btnNum3F();
+};
+
+btnNum4.onclick = function () {
+    btnNum4F();
+};
+
+btnNum5.onclick = function () {
+    btnNum5F();
+};
+
+btnNum6.onclick = function () {
+    btnNum6F();
+};
+
+btnNum7.onclick = function () {
+    btnNum7F();
+};
+
+btnNum8.onclick = function () {
+    btnNum8F();
+};
+
+btnNum9.onclick = function () {
+    btnNum9F();
+};
+
+btnNum0.onclick = function () {
+    btnNum0F();
+};
+
+btnAcros.onclick = function () {
+    btnAcrosF();
+};
+
+btnSignoAbierto.onclick = function () {
+    btnSignoAbiertoF();
+};
+
+btnQ.onclick = function () {
+    btnQF();
+};
+
+btnW.onclick = function () {
+    btnWF();
+};
+
+btnE.onclick = function () {
+    btnEF();
+};
+
+btnR.onclick = function () {
+    btnRF();
+};
+
+btnT.onclick = function () {
+    btnTF();
+};
+
+btnY.onclick = function () {
+    btnYF();
+};
+
+btnU.onclick = function () {
+    btnUF();
+};
+
+btnI.onclick = function () {
+    btnIF();
+};
+
+btnO.onclick = function () {
+    btnOF();
+};
+
+btnP.onclick = function () {
+    btnPF();
+};
+
+btnTilde.onclick = function () {
+    btnTildeF();
+};
+
+btnMas.onclick = function () {
+    btnMasF();
+};
+
+btnA.onclick = function () {
+    btnAF();
+};
+
+btnS.onclick = function () {
+    btnSF();
+};
+
+btnD.onclick = function () {
+    btnDF();
+};
+
+btnF.onclick = function () {
+    btnFF();
+};
+
+btnG.onclick = function () {
+    btnGF();
+};
+
+btnH.onclick = function () {
+    btnHF();
+};
+
+btnJ.onclick = function () {
+    btnJF();
+};
+
+btnK.onclick = function () {
+    btnKF();
+};
+
+btnL.onclick = function () {
+    btnLF();
+};
+
+btnÑ.onclick = function () {
+    btnÑF();
+};
+
+btnLlaveAbre.onclick = function () {
+    btnLlaveAbreF();
+};
+
+btnLlaveCierra.onclick = function () {
+    btnLlaveCierraF();
+};
+
+btnMenorQue.onclick = function () {
+    btnMenorQueF();
+};
+
+btnZ.onclick = function () {
+    btnZF();
+};
+
+btnX.onclick = function () {
+    btnXF();
+};
+
+btnC.onclick = function () {
+    btnCF();
+};
+
+btnV.onclick = function () {
+    btnVF();
+};
+
+btnB.onclick = function () {
+    btnBF();
+};
+
+btnN.onclick = function () {
+    btnNF();
+};
+
+btnM.onclick = function () {
+    btnMF();
+};
+
+btnComa.onclick = function () {
+    btnComaF();
+};
+
+btnPunto.onclick = function () {
+    btnPuntoF();
+};
+
+btnGuion.onclick = function () {
+    btnGuionF();
+};
+
+btnEspacio.onclick = function () {
+    btnEspacioF();
+};
+
+
+
+
