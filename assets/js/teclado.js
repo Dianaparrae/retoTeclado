@@ -1,0 +1,96 @@
+let btnEsc = document.getElementById("btnEsc");
+let btnLinea = document.getElementById("btnLinea");
+let btnNum1 = document.getElementById("btnNum1");
+let btnNum2 = document.getElementById("btnNum2");
+let btnNum3 = document.getElementById("btnNum3");
+let btnNum4 = document.getElementById("btnNum4");
+let btnNum5 = document.getElementById("btnNum5");
+let btnNum6 = document.getElementById("btnNum6");
+let btnNum7 = document.getElementById("btnNum7");
+let btnNum8 = document.getElementById("btnNum8");
+let btnNum9 = document.getElementById("btnNum9");
+let btnNum0 = document.getElementById("btnNum0");
+let btnAcros = document.getElementById("btnAcros");
+let btnSignoAbierto = document.getElementById("btnSignoAbierto");
+let btnBorrar = document.getElementById("btnBorrar");
+let btnInicio = document.getElementById("btnInicio");
+let btnRePag = document.getElementById("btnRePag");
+let btnNav = document.getElementById("btnNav");
+let btnTab = document.getElementById("btnTab");
+let btnQ = document.getElementById("btnQ");
+let btnW = document.getElementById("btnW");
+let btnE = document.getElementById("btnE");
+let btnR = document.getElementById("btnR");
+let btnT = document.getElementById("btnT");
+let btnY = document.getElementById("btnY");
+let btnU = document.getElementById("btnU");
+let btnI = document.getElementById("btnI");
+let btnO = document.getElementById("btnO");
+let btnP = document.getElementById("btnP");
+let btnTilde = document.getElementById("btnTilde");
+let btnMas = document.getElementById("btnMas");
+let btnEnter = document.getElementById("btnEnter");
+let btnFin = document.getElementById("btnFin");
+let btnAvPag = document.getElementById("btnAvPag");
+let btnSubir = document.getElementById("btnSubir");
+let btnBloqMay = document.getElementById("Bloq May");
+let btnA = document.getElementById("btnA");
+let btnS = document.getElementById("btnS");
+let btnD = document.getElementById("btnD");
+let btnF = document.getElementById("btnF");
+let btnG = document.getElementById("btnG");
+let btnH = document.getElementById("btnH");
+let btnJ = document.getElementById("btnJ");
+let btnK = document.getElementById("btnK");
+let btnL = document.getElementById("btnL");
+let btnÑ = document.getElementById("btnÑ");
+let btnLlaveAbre = document.getElementById("btnLlaveAbre");
+let btnLlaveCierra = document.getElementById("btnLlaveCierra");
+let btnEnterI = document.getElementById("btnEnterI");
+let btnInsertar = document.getElementById("btnInsertar");
+let btnPausa = document.getElementById("btnPausa");
+let btnBajar = document.getElementById("btnBajar");
+let btnMayus = document.getElementById("btnMayus");
+let btnMenorQue = document.getElementById("btnMenorQue");
+let btnZ = document.getElementById("btnZ");
+let btnX = document.getElementById("btnX");
+let btnC = document.getElementById("btnC");
+let btnV = document.getElementById("btnV");
+let btnB = document.getElementById("btnB");
+let btnN = document.getElementById("btnN");
+let btnM = document.getElementById("btnM");
+let btnComa = document.getElementById("btnComa");
+let btnPunto = document.getElementById("btnPunto");
+let btnGuion = document.getElementById("btnGuion");
+let btnFlechaArriba = document.getElementById("btnFlechaArriba");
+let btnMayus1 = document.getElementById("btnMayus1");
+let btnSupr = document.getElementById("btnSupr");
+let btnImprPant = document.getElementById("btnImprPant");
+let btnBloqDespl = document.getElementById("btnBloqDespl");
+let btnAcoplar = document.getElementById("btnAcoplar");
+let btnFn = document.getElementById("btnFn");
+let btnControl = document.getElementById("btnControl");
+let btnWindows = document.getElementById("btnWindows");
+let btnAlt = document.getElementById("btnAlt");
+let btnEspacio = document.getElementById("btnEspacio");
+let btnAltGr = document.getElementById("btnAltGr");
+let btnControl1 = document.getElementById("btnControl1");
+let btnFlechaIzq = document.getElementById("btnFlechaIzq");
+let btnFlechaAbajo = document.getElementById("btnFlechaAbajo");
+let btnFlechaDerecha = document.getElementById("btnFlechaDerecha");
+let btnCamara = document.getElementById("btnCamara");
+let btnOpciones = document.getElementById("btnOpciones");
+let btnAyuda = document.getElementById("btnAyuda");
+let btnAtenuar = document.getElementById("btnAtenuar");
+let campoLetras = document.getElementById("campoLetras");
+
+
+
+
+const btnLineaF = () => {
+  
+};
+
+btnLinea.onclick = function () {
+    btnLineaF();
+};
