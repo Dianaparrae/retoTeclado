@@ -46,7 +46,6 @@ let btnL = document.getElementById("btnL");
 let btnÑ = document.getElementById("btnÑ");
 let btnLlaveAbre = document.getElementById("btnLlaveAbre");
 let btnLlaveCierra = document.getElementById("btnLlaveCierra");
-let btnEnterI = document.getElementById("btnEnterI");
 let btnInsertar = document.getElementById("btnInsertar");
 let btnPausa = document.getElementById("btnPausa");
 let btnBajar = document.getElementById("btnBajar");
@@ -83,207 +82,265 @@ let btnOpciones = document.getElementById("btnOpciones");
 let btnAyuda = document.getElementById("btnAyuda");
 let btnAtenuar = document.getElementById("btnAtenuar");
 let campoLetras = document.getElementById("campoLetras");
-
+let caracterTemp = "";
 
 
 const btnLineaF = () => {
-   campoLetras.innerHTML =  "|";
+   campoLetras.innerHTML = caracterTemp + "|";
+   caracterTemp = caracterTemp + "|";
 };
 
 const btnNum1F = () => {
-    campoLetras.innerHTML =  "1";
+    campoLetras.innerHTML = caracterTemp + "1";
+    caracterTemp = caracterTemp + "1";
 };
 
 const btnNum2F = () => {
-    campoLetras.innerHTML =  "2";
+    campoLetras.innerHTML = caracterTemp + "2";
+    caracterTemp = caracterTemp + "2";
 };
 
 const btnNum3F = () => {
-    campoLetras.innerHTML =  "3";
+    campoLetras.innerHTML = caracterTemp + "3";
+    caracterTemp = caracterTemp + "3";
 };
 
 const btnNum4F = () => {
-    campoLetras.innerHTML =  "4";
+    campoLetras.innerHTML = caracterTemp + "4";
+    caracterTemp = caracterTemp + "4";
 };
 
 const btnNum5F = () => {
-    campoLetras.innerHTML =  "5";
+    campoLetras.innerHTML = caracterTemp + "5";
+    caracterTemp = caracterTemp + "5";
 };
 
 const btnNum6F = () => {
-    campoLetras.innerHTML =  "6";
+    campoLetras.innerHTML = caracterTemp + "6";
+    caracterTemp = caracterTemp + "6";
 };
 
 const btnNum7F = () => {
-    campoLetras.innerHTML =  "7";
+    campoLetras.innerHTML = caracterTemp + "7";
+    caracterTemp = caracterTemp + "7";
 };
 
 const btnNum8F = () => {
-    campoLetras.innerHTML =  "8";
+    campoLetras.innerHTML = caracterTemp + "8";
+    caracterTemp = caracterTemp + "8";
 };
 
 const btnNum9F = () => {
-    campoLetras.innerHTML =  "9";
+    campoLetras.innerHTML = caracterTemp + "9";
+    caracterTemp = caracterTemp + "9";
 };
 
 const btnNum0F = () => {
-    campoLetras.innerHTML =  "0";
+    campoLetras.innerHTML = caracterTemp + "0";
+    caracterTemp = caracterTemp + "0";
 };
 
 const btnAcrosF = () => {
-    campoLetras.innerHTML =  "'";
+    campoLetras.innerHTML = caracterTemp + "'";
+    caracterTemp = caracterTemp + "'";
 };
 
 const btnSignoAbiertoF = () => {
-    campoLetras.innerHTML =  "¿";
+    campoLetras.innerHTML = caracterTemp + "¿";
+    caracterTemp = caracterTemp + "¿";
 };
 
 const btnQF = () => {
-    campoLetras.innerHTML =  "q";
+    campoLetras.innerHTML = caracterTemp + "q";
+    caracterTemp = caracterTemp + "q";
 };
 
 const btnWF = () => {
-    campoLetras.innerHTML =  "w";
+    campoLetras.innerHTML = caracterTemp + "w";
+    caracterTemp = caracterTemp + "w";
 };
 
 const btnEF = () => {
-    campoLetras.innerHTML =  "e";
+    campoLetras.innerHTML = caracterTemp + "e";
+    caracterTemp = caracterTemp + "e";
 };
 
 const btnRF = () => {
-    campoLetras.innerHTML =  "r";
+    campoLetras.innerHTML = caracterTemp + "r";
+    caracterTemp = caracterTemp + "r";
 };
 
 const btnTF = () => {
-    campoLetras.innerHTML =  "t";
+    campoLetras.innerHTML = caracterTemp + "t";
+    caracterTemp = caracterTemp + "t";
 };
 
 const btnYF = () => {
-    campoLetras.innerHTML =  "y";
+    campoLetras.innerHTML = caracterTemp + "y";
+    caracterTemp = caracterTemp + "y";
 };
 
 const btnUF = () => {
-    campoLetras.innerHTML =  "u";
+    campoLetras.innerHTML = caracterTemp + "u";
+    caracterTemp = caracterTemp + "u";
 };
 
 const btnIF = () => {
-    campoLetras.innerHTML =  "i";
+    campoLetras.innerHTML = caracterTemp + "i";
+    caracterTemp = caracterTemp + "i";
 };
 
 const btnOF = () => {
-    campoLetras.innerHTML =  "o";
+    campoLetras.innerHTML = caracterTemp + "o";
+    caracterTemp = caracterTemp + "o";
 };
 
 const btnPF = () => {
-    campoLetras.innerHTML =  "p";
+    campoLetras.innerHTML = caracterTemp + "p";
+    caracterTemp = caracterTemp + "p";
 };
 
 const btnTildeF = () => {
-    campoLetras.innerHTML =  "´";
+    campoLetras.innerHTML = caracterTemp + "´";
+    caracterTemp = caracterTemp + "´";
 };
 
 const btnMasF = () => {
-    campoLetras.innerHTML =  "+";
+    campoLetras.innerHTML = caracterTemp + "+";
+    caracterTemp = caracterTemp + "+";
 };
 
 const btnAF = () => {
-    campoLetras.innerHTML =  "a";
+    campoLetras.innerHTML = caracterTemp + "a";
+    caracterTemp = caracterTemp + "a";
 };
 
 const btnSF = () => {
-    campoLetras.innerHTML =  "s";
+    campoLetras.innerHTML = caracterTemp + "s";
+    caracterTemp = caracterTemp + "s";
 };
 
 const btnDF = () => {
-    campoLetras.innerHTML =  "d";
+    campoLetras.innerHTML = caracterTemp + "d";
+    caracterTemp = caracterTemp + "d";
 };
 
 const btnFF = () => {
-    campoLetras.innerHTML =  "f";
+    campoLetras.innerHTML = caracterTemp + "f";
+    caracterTemp = caracterTemp + "f";
 };
 
 const btnGF = () => {
-    campoLetras.innerHTML =  "g";
+    campoLetras.innerHTML = caracterTemp + "g";
+    caracterTemp = caracterTemp + "g";
 };
 
 const btnHF = () => {
-    campoLetras.innerHTML =  "h";
+    campoLetras.innerHTML = caracterTemp + "h";
+    caracterTemp = caracterTemp + "h";
 };
 
 const btnJF = () => {
-    campoLetras.innerHTML =  "j";
+    campoLetras.innerHTML = caracterTemp + "j";
+    caracterTemp = caracterTemp + "j";
 };
 
 const btnKF = () => {
-    campoLetras.innerHTML =  "k";
+    campoLetras.innerHTML = caracterTemp + "k";
+    caracterTemp = caracterTemp + "k";
 };
 
 const btnLF = () => {
-    campoLetras.innerHTML =  "l";
+    campoLetras.innerHTML = caracterTemp + "l";
+    caracterTemp = caracterTemp + "l";
+};
+
+const btnÑF = () => {
+    campoLetras.innerHTML = caracterTemp + "ñ";
+    caracterTemp = caracterTemp + "ñ";
 };
 
 const btnLlaveAbreF = () => {
-    campoLetras.innerHTML =  "{";
+    campoLetras.innerHTML = caracterTemp + "{";
+    caracterTemp = caracterTemp + "{";
 };
 
 const btnLlaveCierraF = () => {
-    campoLetras.innerHTML =  "}";
+    campoLetras.innerHTML = caracterTemp + "}";
+    caracterTemp = caracterTemp + "}";
 };
 
 const btnMenorQueF = () => {
-    campoLetras.innerHTML =  "<";
+    campoLetras.innerHTML = caracterTemp + "<";
+    caracterTemp = caracterTemp + "<";
 };
 
 const btnZF = () => {
-    campoLetras.innerHTML =  "z";
+    campoLetras.innerHTML = caracterTemp + "z";
+    caracterTemp = caracterTemp + "z";
 };
 
 const btnXF = () => {
-    campoLetras.innerHTML =  "x";
+    campoLetras.innerHTML = caracterTemp + "x";
+    caracterTemp = caracterTemp + "x";
 };
 
 const btnCF = () => {
-    campoLetras.innerHTML =  "c";
+    campoLetras.innerHTML = caracterTemp + "c";
+    caracterTemp = caracterTemp + "c";
 };
 
 const btnVF = () => {
-    campoLetras.innerHTML =  "v";
+    campoLetras.innerHTML = caracterTemp + "v";
+    caracterTemp = caracterTemp + "v";
 };
 
 const btnBF = () => {
-    campoLetras.innerHTML =  "b";
+    campoLetras.innerHTML = caracterTemp + "b";
+    caracterTemp = caracterTemp + "b";
 };
 
 const btnNF = () => {
-    campoLetras.innerHTML =  "n";
+    campoLetras.innerHTML = caracterTemp + "n";
+    caracterTemp = caracterTemp + "n";
 };
 
 const btnMF = () => {
-    campoLetras.innerHTML =  "m";
+    campoLetras.innerHTML = caracterTemp + "m";
+    caracterTemp = caracterTemp + "m";
 };
 
 const btnComaF = () => {
-    campoLetras.innerHTML =  ",";
+    campoLetras.innerHTML = caracterTemp + ",";
+    caracterTemp = caracterTemp + ",";
 };
 
 const btnPuntoF = () => {
-    campoLetras.innerHTML =  ".";
+    campoLetras.innerHTML = caracterTemp + ".";
+    caracterTemp = caracterTemp + ".";
 };
 
 const btnGuionF = () => {
-    campoLetras.innerHTML =  "-";
+    campoLetras.innerHTML = caracterTemp + "-";
+    caracterTemp = caracterTemp + "-";
 };
 
-const btnEspacioF = () => {
-    campoLetras.innerHTML =  " ";
+// const btnEspacioF = () => {
+//    campoLetras.innerHTML = caracterTemp + " ";
+//    caracterTemp = caracterTemp + " ";
+//};
+
+//const btnBorrarF = () => {
+//    campoLetras.innerHTML = caracterTemp
+//    caracterTemp = caracterTemp - " ";
+//}
+
+
+
+
+btnBorrar.onclick = function () {
+    btnBorrarF();
 };
-
-
-
-
-
-
-
 
 
 

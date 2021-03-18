@@ -1,6 +1,78 @@
+.estructuraBoton{
+    border-radius: 15px;
+    background-color: rgb(221, 160, 221);
+    color: white;
+    margin: .2em;
+}
+
+.estiloTitulo{
+    color: rgb(192, 19, 192);
+    text-align: center;
+}
+.anchoLetrasNumeros{
+    height: 45px;
+    width: 45px;
+}
+
+.anchoTeclasEsp{
+    height: 50px;
+    width: 70px;
+}
+
 .campoLetras{
     border: 2px solid rgb(232, 4, 253);
-    width: 90%;
+    width: 81%;
     height: 20px;
     padding: 5px 2px 5px 2px;
+}
+
+.btnBorrar{
+    height: 45px;
+    width: 100px;
+}
+
+
+.btnTab{
+    height: 50px;
+    width: 65px; 
+}
+
+.btnEnter{
+    height: 45px;
+    width: 135px;
+}
+
+.btnBloqMay{
+    height: 50px;
+    width: 90px;
+}
+
+.btnMayus{
+    height: 50px;
+    width: 65px; 
+}
+
+.btnMayus1{
+    height: 50px;
+    width: 65px;
+}
+
+.btnEspacio{
+    height: 50px;
+    width: 283px;
+}
+
+.btnSupr{
+    height: 50px;
+    width: 60px;
+}
+
+.btnCamara{
+    height: 50px;
+    width: 80px;
+}
+
+.espacioEnter{
+    width: 110px;
+    height: 50px;
 }
